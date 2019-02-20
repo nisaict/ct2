@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CT assignment</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-primary alert-primary ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto navbar-primary">
+            <li class="nav-item active navbar-primary">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">PHP</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Bootstrap
+                </a>
+                <div class="dropdown-menu alert-dark" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Carousel</a>
+                    <a class="dropdown-item" href="#">Forms</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Select</a>
+                </div>
+            </li>
+
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="Go" placeholder="Find Topics" aria-label="Go">
+            <button class="btn  my-2 my-sm-0 alert-info" type="submit">Go</button>
+        </form>
+        <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+            </a>
+
+        </li>
+        </ul>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link btn btn-primary" type="button" href="#" data-toggle="modal" data-target="#exmodal">Contact</a>
+            </li>
+        </ul>
+
+
+    </div>
+</nav>
+
+<div class="modal" tabindex="-1" role="dialog" id="exmodal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exmodal">Contact Us</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                <div class="form-group row">
+                    <label class="col-sm-2 con-form-label">Name<span>*</span></label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control " placeholder="First">
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" placeholder="Second" >
+                    </div>
+
+                </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 con-form-label">Email<span>*</span></label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control">
+                        </div>
+
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 con-form-label">Message<span>*</span></label>
+                        <div class="col-sm-6">
+                            <textarea type="text" class="form-control"></textarea>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+            <div class="col-12">
+
+                <button type="button" class="btn btn-primary ">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
